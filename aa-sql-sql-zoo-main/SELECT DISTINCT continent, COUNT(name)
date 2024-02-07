@@ -1,0 +1,197 @@
+   continent   |                 name                  
+---------------+---------------------------------------
+ Africa        | Central African Republic
+ Africa        | Cameroon
+ Europe        | Spain
+ Middle East   | Sudan
+ Africa        | Madagascar
+ Africa        | Mali
+ Africa        | Ivory Coast
+ Europe        | Georgia
+ South America | Peru
+ Africa        | Ethiopia
+ North America | Mexico
+ Asia-Pacific  | Nauru
+ Africa        | Uganda
+ South Asia    | Afghanistan
+ Europe        | Denmark
+ Europe        | Finland
+ Europe        | Iceland
+ Africa        | Lesotho
+ Europe        | Armenia
+ Americas      | Bahamas
+ Asia-Pacific  | Tonga
+ Africa        | Kenya
+ Africa        | Burkina Faso
+ Middle East   | Yemen
+ Europe        | Croatia
+ Africa        | Djibouti
+ Europe        | Monaco
+ South America | Colombia
+ Asia-Pacific  | Thailand
+ Middle East   | Qatar
+ Europe        | Cyprus
+ Asia-Pacific  | Solomon Islands
+ Middle East   | Egypt
+ South America | Uruguay
+ Africa        | Guinea-Bissau
+ Asia-Pacific  | North Korea
+ Americas      | St Lucia
+ Americas      | Jamaica
+ South America | Bolivia
+ Europe        | Hungary
+ Europe        | Bulgaria
+ Asia-Pacific  | The Philippines
+ Asia-Pacific  | South Korea
+ South Asia    | Bangladesh
+ Asia-Pacific  | Laos
+ Africa        | Guinea
+ Americas      | Panama
+ Europe        | Switzerland
+ Africa        | Comoros
+ Asia-Pacific  | Tajikistan
+ Asia-Pacific  | Vietnam
+ Africa        | Swaziland
+ Middle East   | Mauritania
+ Middle East   | Iraq
+ Asia-Pacific  | China
+ Africa        | Botswana
+ Europe        | Portugal
+ Africa        | Liberia
+ Asia-Pacific  | Uzbekistan
+ Europe        | Luxembourg
+ Africa        | Sierra Leone
+ Asia-Pacific  | Indonesia
+ South America | Paraguay
+ Americas      | Costa Rica
+ Africa        | South Africa
+ Africa        | Benin
+ South Asia    | India
+ Americas      | Haiti
+ Asia-Pacific  | Vanuatu
+ South Asia    | Sri Lanka
+ Africa        | Eritrea
+ Europe        | Bosnia-Hercegovina
+ Middle East   | Algeria
+ Asia-Pacific  | Burma
+ Europe        | Poland
+ Europe        | Norway
+ Europe        | Ireland
+ Africa        | Mauritius
+ South America | Chile
+ Africa        | Ghana
+ Americas      | Barbados
+ Africa        | Libya
+ Europe        | Slovenia
+ Americas      | Guatemala
+ Europe        | United Kingdom
+ Middle East   | Syria
+ South America | Ecuador
+ Americas      | Cuba
+ Africa        | Nigeria
+ Europe        | Slovakia
+ Middle East   | Saudi Arabia
+ Asia-Pacific  | Kiribati
+ Americas      | El Salvador
+ Europe        | Belgium
+ Asia-Pacific  | Kazakhstan
+ Middle East   | United Arab Emirates
+ Africa        | Angola
+ Africa        | Somalia
+ Africa        | Republic of Congo
+ Europe        | Albania
+ South America | Surinam
+ Americas      | Nicaragua
+ Africa        | Cape Verde
+ South America | Brazil
+ Middle East   | Israel and Palestinian territories
+ Middle East   | Tunisia
+ Africa        | Gabon
+ Asia-Pacific  | Samoa
+ Europe        | France
+ Europe        | Ukraine
+ Europe        | Lithuania
+ Middle East   | Bahrain
+ Asia-Pacific  | Taiwan
+ Europe        | Liechtenstein
+ Middle East   | Lebanon
+ Asia-Pacific  | Turkmenistan
+ Asia-Pacific  | Mongolia
+ Africa        | Niger
+ Americas      | Dominican Republic
+ Europe        | Turkey
+ Africa        | Mozambique
+ Europe        | Greece
+ Middle East   | Morocco
+ Europe        | Azerbaijan
+ South Asia    | The Maldives
+ Africa        | Tanzania
+ Middle East   | Iran
+ Americas      | Dominica
+ Asia-Pacific  | Brunei
+ Americas      | Trinidad and Tobago
+ Asia-Pacific  | New Zealand
+ Europe        | Former Yugoslav Republic of Macedonia
+ North America | Canada
+ Europe        | Romania
+ Asia-Pacific  | Micronesia
+ Middle East   | Jordan
+ South Asia    | Nepal
+ Europe        | Moldova
+ Americas      | Honduras
+ South America | Argentina
+ Africa        | Sao Tome and Principe
+ Africa        | Malawi
+ Europe        | Germany
+ Americas      | St Kitts and Nevis
+ Asia-Pacific  | East Timor
+ Africa        | Burundi
+ Middle East   | Oman
+ Europe        | Malta
+ Africa        | Senegal
+ Asia-Pacific  | Japan
+ Europe        | Latvia
+ Europe        | Austria
+ South America | Venezuela
+ Europe        | Sweden
+ Africa        | Togo
+ Africa        | Chad
+ Europe        | The Netherlands
+ Europe        | Belarus
+ Americas      | Antigua and Barbuda
+ Africa        | Zimbabwe
+ Asia-Pacific  | Fiji
+ Europe        | Czech Republic
+ Asia-Pacific  | Malaysia
+ Africa        | The Gambia
+ Africa        | Democratic Republic of Congo
+ Americas      | Belize
+ Europe        | Russia
+ South Asia    | Pakistan
+ Africa        | Equatorial Guinea
+ Africa        | Namibia
+ South Asia    | Bhutan
+ Africa        | Zambia
+ Europe        | Andorra
+ North America | United States of America
+ Europe        | San Marino
+ Africa        | Seychelles
+ Americas      | Grenada
+ Asia-Pacific  | Papua New Guinea
+ Asia-Pacific  | Tuvalu
+ Africa        | Rwanda
+ Americas      | St Vincent and the Grenadines
+ Europe        | Serbia and Montenegro
+ Asia-Pacific  | Palau
+ Europe        | Estonia
+ Middle East   | Kuwait
+ Asia-Pacific  | Singapore
+ Asia-Pacific  | Kyrgyzstan
+ Asia-Pacific  | Australia
+ Asia-Pacific  | Cambodia
+ Asia-Pacific  | Marshall Islands
+ Europe        | Italy
+ Europe        | Vatican
+ South America | Guyana
+(193 rows)
+
