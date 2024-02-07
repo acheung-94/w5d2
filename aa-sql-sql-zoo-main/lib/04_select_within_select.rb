@@ -33,15 +33,28 @@ def example_select_with_subquery
 end
 
 def larger_than_russia
-  # List each country name where the population is larger than 'Russia'.
+  # List each country name where the population is larger than Russia's population.
   execute(<<-SQL)
+  SELECT name
+  FROM countries
+  WHERE  
+    population > (SELECT population
+    FROM countries
+    WHERE name = 'Russia');
   SQL
 end
 
 def richer_than_england
-  # Show the countries in Europe with a per capita GDP greater than
+  # Show the countries in Europe with a per capita GDP greater than that of
   # 'United Kingdom'.
   execute(<<-SQL)
+  SELECT name
+  FROM countries
+  WHERE continent = 'Europe' AND gdp / population > 
+    ( SELECT gdp / population
+      FROM countries
+      WHERE name = 'United Kingdom'
+    );
   SQL
 end
 
@@ -49,6 +62,14 @@ def neighbors_of_certain_b_countries
   # List the name and continent of countries in the continents containing
   # 'Belize', 'Belgium'.
   execute(<<-SQL)
+  SELECT name, continent
+  FROM countries
+  WHERE continent IN (
+    SELECT continent
+    FROM countries
+    WHERE name = 'Belize' OR name = 'Belgium'
+  );
+
   SQL
 end
 
@@ -56,6 +77,18 @@ def population_constraint
   # Which country has a population that is more than Canada but less than
   # Poland? Show the name and the population.
   execute(<<-SQL)
+  SELECT name, population
+  FROM countries
+  WHERE population > (
+    SELECT population
+    FROM countries
+    WHERE name = 'Canada'
+  ) AND population < (
+    SELECT population
+    FROM countries
+    WHERE name = 'Poland'
+  );
+
   SQL
 end
 
@@ -65,5 +98,14 @@ def sparse_continents
   # population.
   # Hint: Sometimes rewording the problem can help you see the solution.
   execute(<<-SQL)
+  SELECT name, continent, population
+  FROM countries
+  WHERE continent =
+  (
+    SELECT continent
+    FROM countries
+    GROUP BY continent
+    HAVING MAX(population) < 25000000
+  );
   SQL
 end
